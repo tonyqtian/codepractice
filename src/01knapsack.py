@@ -8,6 +8,7 @@
 @time: 2018/04/18 午前10:19
 """
 
+
 # A Dynamic Programming based Python Program for 0-1 Knapsack problem
 # Returns the maximum value that can be put in a knapsack of capacity W
 def knapSack(W, wt, val, n):
@@ -24,6 +25,7 @@ def knapSack(W, wt, val, n):
                 K[i][w] = K[i-1][w]
 
     return K[n][W]
+
 
 # Driver program to test above function
 val = [60, 100, 120]

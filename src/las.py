@@ -8,6 +8,7 @@
 @time: 2018/04/19 午後5:56
 """
 
+
 def max_ascend_len(ary):
     maxlist = []
     if len(ary) == 0:
@@ -22,6 +23,7 @@ def max_ascend_len(ary):
             end = idx
             start = idx
     return max(maxlist)
+
 
 a = [2,1,4,3,1,5,6]
 print(max_ascend_len(a))
